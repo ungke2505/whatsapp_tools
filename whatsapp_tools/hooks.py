@@ -5,6 +5,25 @@ app_description = "WhatsApp sender"
 app_email = "merckiano@outlook.com"
 app_license = "MIT"
 
+
+
+
+doc_events = {
+    # jika kamu ingin trigger otomatis nanti
+}
+
+# Kalau ingin exposed API public (misal ke client script)
+override_whitelisted_methods = {}
+
+# Tambahkan import method
+app_include_js = []
+
+# Register module (jika belum)
+app_name = "whatsapp_tools"
+app_title = "Whatsapp Tools"
+app_publisher = "..."
+app_description = "..."
+
 # Includes in <head>
 # ------------------
 
